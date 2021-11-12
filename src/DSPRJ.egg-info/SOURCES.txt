@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/DSPRJ.egg-info/PKG-INFO
+src/DSPRJ.egg-info/SOURCES.txt
+src/DSPRJ.egg-info/dependency_links.txt
+src/DSPRJ.egg-info/top_level.txt
+src/mypkg/__init__.py
+src/mypkg/player.py
+src/mypkg/standings.py
+src/mypkg/team.py
+src/mypkg/team_ratings.py
+src/mypkg/wins.py

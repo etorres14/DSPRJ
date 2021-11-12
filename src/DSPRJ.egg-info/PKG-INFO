@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: DSPRJ
+Version: 0.0.3
+Summary: A small package that pulls up player and team data on the current (2021/2022) NBA season..
+Home-page: https://github.com/etorres14/dsprj
+Author: Edward Torres
+Author-email: entorres93@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/pypa/sampleproject/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+This is a package develped for those who wish to pull up stats on thier favorite player or team in the current NBA season. The data is being pulled from https://www.basketball-reference.com, specifically from the 2021/2022 NBA season. The player.py file contains methods that are used to pull up statistics on particular players and can even compare multiple players. The team.py file does the same for particular teams and the team_ratings includes more advanced team stats. The standings.py file will pull up the current standings for east and west individually. Finally the wins.py file contains a functino that uses a linear regression model I created, to predict the number of wins a team will end up with based on thier current team stats. This model was created using 2018/2019 NBA data and uses both offesnsive and defensive NBA stats to generate a prediction. 
+
